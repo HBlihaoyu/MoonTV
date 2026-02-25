@@ -282,6 +282,7 @@ export default function VideoCard({
           alt={actualTitle}
           fill
           className='object-cover'
+          referrerPolicy='origin'
           onLoadingComplete={() => setIsLoading(true)}
         />
 
